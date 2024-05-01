@@ -52,6 +52,19 @@ header{
     display: none;
 }
 
+.oatttt {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* จัดตำแหน่งสไลด์ทางซ้าย */
+    margin-top: 20px;
+}
+
+.oatttt i{
+    font-size: 50px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -90,7 +103,7 @@ header{
 }
 
 section{
-    padding: 100px 8%;
+    padding: 50px 8%;
 }
 
 .container{
