@@ -19,7 +19,7 @@
 }
 
 body{
-    background: #ffffff;
+    background: var(--bg-color);
     color: var(--text-color);
 }
 header{
@@ -52,23 +52,26 @@ header{
     display: none;
 }
 
-.oatttt {
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* จัดตำแหน่งสไลด์ทางซ้าย */
-    margin-top: 20px;
-    margin-left: 800px; /* ขยับไปทางด้านขวา */
-    margin-right: 10px; /* เพิ่มระยะห่างด้านขวาเพิ่มอีก */
-    border: 2px solid #000; 
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
+.gogo {
+    display: inline-block;
+    padding: 14px 15px;
+    background-color: rgb(219, 214, 184);
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all .50s ease;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
 }
 
-.oatttt i{
-    font-size: 50px;
+.gogo:hover{
+    transform: translateX(10px);
+    border: 2px solid var(--text-color);
+    background: transparent;
+    color: var(--text-color);
 }
 
 .navbar {
@@ -109,7 +112,7 @@ header{
 }
 
 section{
-    padding: 50px 8%;
+    padding: 100px 8%;
 }
 
 .container{
@@ -139,7 +142,7 @@ section{
 .box h4{
     font-size: 15px;
     letter-spacing: 1px;
-    margin-bottom: 8px;
+    margin-bottom: 8px;   
 }
 
 .box .art i{

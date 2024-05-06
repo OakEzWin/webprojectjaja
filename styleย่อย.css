@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Kanit", sans-serif;
+    font-family: "Lugrasimo", cursive;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
@@ -137,7 +137,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    ;
+
 }
 
 .containerpic2 {
@@ -149,5 +149,6 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    ;
+
 }
+
