@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Lugrasimo", cursive;
+    font-family: "Kanit", sans-serif;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
@@ -19,7 +19,7 @@
 }
 
 body{
-    background: var(--bg-color);
+    background: #ffffff;
     color: var(--text-color);
 }
 header{
@@ -59,6 +59,12 @@ header{
     align-items: center;
     justify-content: flex-start; /* จัดตำแหน่งสไลด์ทางซ้าย */
     margin-top: 20px;
+    margin-left: 800px; /* ขยับไปทางด้านขวา */
+    margin-right: 10px; /* เพิ่มระยะห่างด้านขวาเพิ่มอีก */
+    border: 2px solid #000; 
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 .oatttt i{
